@@ -5,12 +5,12 @@
 This docker image contains essential packages and tools for whole genome assembly and alignment. The following are the packages
 that is available in this docker container:
 
-    * fastqc
-    * jellyfish
-    * spades
-    * mummer
-    * samtools
-    * ... (more to be added soon)
+* fastqc
+* jellyfish
+* spades
+* mummer
+* samtools
+* ... (more to be added soon)
 
 
 ### Installation Guide
@@ -19,9 +19,9 @@ that is available in this docker container:
 
 Follow the below links to install Docker on various operating systems
 
-    * [OS X](https://docs.docker.com/v1.10/mac/)
-    * [Linux](https://docs.docker.com/v1.10/linux/)
-    * [Windows](https://docs.docker.com/v1.10/windows/)
+* [OS X](https://docs.docker.com/v1.10/mac/)
+* [Linux](https://docs.docker.com/v1.10/linux/)
+* [Windows](https://docs.docker.com/v1.10/windows/)
 
 The below steps worked on MacBook Pro (OS X High Sierra)
 
