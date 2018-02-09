@@ -70,5 +70,5 @@ If this command executes successfully, it means your docker setup process is com
 
 **Acknowledgement**:
 
-Many thanks to [phizaz/bioconda](https://hub.docker.com/r/phizaz/bioconda/) from where I took the base images for **python3**,
+Many thanks to [phizaz/bioconda](https://hub.docker.com/r/phizaz/bioconda/) from where I took the base images for **python3**
 and **miniconda**.
