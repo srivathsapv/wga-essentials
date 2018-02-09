@@ -34,7 +34,7 @@ $ docker pull srivathsapv/wga-essentials
 #### Run the docker image
 
 ```
-$ docker run -it -d -v <source_code_path>:/root/source_code wga-essentials bin/bash
+$ docker run -it -d -v <source_code_path>:/root/source_code srivathsapv/wga-essentials bin/bash
 ```
 
 **Note**: The `<source_code_path>` can be your working directory in your host machine (local machine). This enables the docker container
