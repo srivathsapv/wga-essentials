@@ -3,7 +3,7 @@
 ## Whole Genome Assembly (WGA) essentials tools and packages.
 
 This docker image contains essential packages and tools for whole genome assembly and alignment. The following are the packages
-that is available in this docker container:
+that are available in this docker image:
 
 * fastqc
 * jellyfish
@@ -37,8 +37,8 @@ $ docker pull srivathsapv/wga-essentials
 $ docker run -it -d -v <source_code_path>:/root/source_code srivathsapv/wga-essentials bin/bash
 ```
 
-**Note**: The `<source_code_path>` can be your working directory in your host machine (local machine). This enables the docker container
-to access your local files (code and reads/reference genome files)
+**Note**: The `<source_code_path>` can be your working directory in your host machine (local machine). This enables the docker
+container to access your local files (code and reads/reference genome files)
 
 The above command will print a long hexadecimal string. Ex:
 
@@ -66,7 +66,7 @@ Assume you have a `ref.fa` file in your `source_code` folder. Then run the follo
 # samtools faidx ref.fa
 ```
 
-If this command executes successfully, it means your docker setup process is complete.
+If this command executes successfully, it means your setup process is complete.
 
 **Acknowledgement**:
 
