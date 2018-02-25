@@ -35,13 +35,14 @@ RUN apt-fast update && apt-fast install -y \
         r-base \
         time \
         zlib1g-dev
-        
+
 RUN cd /tmp \
     && curl -O https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh \
     && bash Miniconda3-latest-Linux-x86_64.sh -b -p /opt/conda
 ENV PATH=/opt/conda/bin:$PATH
+RUN conda install -y conda=4.4.7
 RUN conda config --add channels defaults \
     && conda config --add channels conda-forge \
     && conda config --add channels bioconda
 
-RUN conda install fastqc jellyfish spades mummer samtools
+RUN conda install fastqc jellyfish spades mummer samtools freebayes bcftools bowtie2

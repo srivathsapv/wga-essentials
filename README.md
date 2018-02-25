@@ -10,8 +10,13 @@ that are available in this docker image:
 * spades
 * mummer
 * samtools
-* ... (more to be added soon)
 
+**Change Log 02/24**:
+
+Added the following tools
+* freebayes
+* bcftools
+* bowtie2
 
 ### Installation Guide
 
